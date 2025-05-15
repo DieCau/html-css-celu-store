@@ -134,6 +134,106 @@
         </div>
       </nav>
     </header>
+     <main class="container py-5">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 mb-4 text-center text-sm-start">
+          <img
+            src="../img/error404/robot_1984274.png"
+            alt="robot dañado"
+            class="img-fluid rounded-3 w-75"
+          />
+        </div>
+        <div
+          class="col-lg-6 col-md-6 col-sm-12 mb-5 d-flex flex-column justify-content-center"
+        >
+          <p class="display-4">
+            La página que intentas solicitar no está en el servidor
+            <b>(Error 404)</b>
+          </p>
+          <a href="../index.html" class="btn btn-dark fs-5 mt-5"
+            >Volver al inicio</a
+          >
+        </div>
+      </div>
+    </main>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="BotonIngresar"
+      tabindex="-1"
+      aria-labelledby="BotonIngresar"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="#BotonIngresar">Ingresa tu cuenta</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body row">
+            <!-- modal body -->
+            <div class="col-6">
+              <img
+                src="../img/loginImgModal.jpg"
+                alt="NovaStore"
+                class="img-fluid rounded"
+              />
+            </div>
+            <form class="col-6">
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  required
+                  maxlength="30"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label">Contraseña</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  required
+                  maxlength="30"
+                />
+              </div>
+              <div class="row justify-content-center">
+                <a
+                  class="link-dark link-underline-opacity-0 text-center col-12"
+                  href="./error404.html"
+                  target="_blank"
+                  >¿Has olvidado tu contraseña?</a
+                >
+                <a
+                  href="./error404.html"
+                  class="btn btn-primary text-light mt-3"
+                >
+                  <i class="bi bi-facebook me-1"></i>Iniciar sesión con Facebook
+                </a>
+              </div>
+              <div class="modal-footer mt-4 row">
+                <button type="submit" class="btn btn-primary col-12">
+                  Ingresar
+                </button>
+                <a
+                  class="link-light link-underline-opacity-0 btn btn-success"
+                  href="./crearCuenta.html"
+                  target="_blank"
+                  >Crear cuenta</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
-
 </html>
