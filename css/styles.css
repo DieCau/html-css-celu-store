@@ -65,12 +65,17 @@ main {
   width: 150px;
   height: 150px;
   object-fit: cover;
-  border: 3px solid #0d6efd;
   filter: grayscale(100%);
 }
 
 .equipoCard {
   width: 400px;
+}
+
+.btn-linkedin {
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-size: 1.4rem;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -97,4 +102,16 @@ textarea {
 }
 .logotarjetas {
   width: 45px;
+}
+
+
+@media (max-width: 767.98px) {
+  .img-banner-nosotros {
+    height: 300px;
+    object-fit: cover;
+  }
+   .btn-linkedin {
+    padding: 4px 8px;
+    font-size: 1.1rem;
+  }
 }
